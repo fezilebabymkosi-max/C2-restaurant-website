@@ -1,0 +1,114 @@
+body {
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 50px;
+        }
+        header img {
+            max-width: 150px;
+            height: auto;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #ffffff;
+        }       
+        nav {
+            background-color: #444444;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main{
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        main image {
+            max-width: 100%;
+            height: auto;
+        }
+        skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            z-index: 100;
+            text-decoration: none;
+        }
+        skip-link:focus {
+            top: 0;
+        }
+        @media (min-width: 768px) {
+            main {
+                grid-template-columns: 2fr 1fr;
+            }
+               chef-section, Hoours-section {
+                grid-column: 2 / 3;
+               }
+        }
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+#nav {
+    background-color: #444444;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+#nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+menu-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+footer {
+    clear: both;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
